@@ -25,7 +25,6 @@
 		364C41321911DCE8004B6D0A /* BTITestCommentTrackingLogsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 364C41311911DCE8004B6D0A /* BTITestCommentTrackingLogsTests.m */; };
 		364C413B1911DD44004B6D0A /* BTIStringProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 364C413A1911DD44004B6D0A /* BTIStringProcessor.m */; };
 		364C413C1911DD44004B6D0A /* BTIStringProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 364C413A1911DD44004B6D0A /* BTIStringProcessor.m */; };
-		364C413F1911DF13004B6D0A /* livetest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C413E1911DF13004B6D0A /* livetest.txt */; };
 		364C41401911DF13004B6D0A /* livetest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C413E1911DF13004B6D0A /* livetest.txt */; };
 		364C41421911E34A004B6D0A /* test1input-commentBTIlog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C41411911E34A004B6D0A /* test1input-commentBTIlog.txt */; };
 		364C41441911E35A004B6D0A /* test1output.txt in Resources */ = {isa = PBXBuildFile; fileRef = 364C41431911E35A004B6D0A /* test1output.txt */; };
@@ -332,7 +331,6 @@
 			files = (
 				364C41001911DC6A004B6D0A /* main.xib in Resources */,
 				364C40FA1911DC6A004B6D0A /* InfoPlist.strings in Resources */,
-				364C413F1911DF13004B6D0A /* livetest.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +657,7 @@
 				364C41061911DC6A004B6D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		364C41331911DCE8004B6D0A /* Build configuration list for PBXNativeTarget "BTITestCommentTrackingLogs" */ = {
 			isa = XCConfigurationList;
@@ -667,6 +666,7 @@
 				364C41351911DCE8004B6D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		364C41361911DCE8004B6D0A /* Build configuration list for PBXNativeTarget "BTITestCommentTrackingLogsTests" */ = {
 			isa = XCConfigurationList;
@@ -675,6 +675,7 @@
 				364C41381911DCE8004B6D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
