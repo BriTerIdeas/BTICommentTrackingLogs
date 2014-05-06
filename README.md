@@ -30,7 +30,7 @@ As the name implies, this one is for commenting out the tracking logs created by
 - Reveal the product in the Finder
 - The .action file needs to be placed in ~/Library/Automator
 - Launch Automator, and create a new Workflow using the Service template
-- The settings at the top should be "text", "any application" (or limit to Xcode if you prefer), and the "Output replaces selected text" checkbox should be ON
+- The settings at the top should be "text", "any application" (or limit to Xcode if you prefer), and the "Output replaces selected text" checkbox should be **ON**
 - Locate the custom action in the list. It might be in the "Recently Added" smart group. You may need to restart Automator to see it. Drag it into the workflow.
 - Save. Give it a name you'll recognize, such as "Comment Tracking Logs"
 - This action will be available in the Services menu any time you have a text selection
