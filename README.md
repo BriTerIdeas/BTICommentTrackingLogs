@@ -1,19 +1,11 @@
-BTICommentTrackingLogs
-======================
-
+# BTICommentTrackingLogs
 by **Brian Slick**
 
-Personal Stuff
-- Visit my blog at [http://clingingtoideas.blogspot.com](http://clingingtoideas.blogspot.com)
-- Follow [@BrianSlick on Twitter](http://twitter.com/BrianSlick)
+Personal: [@BrianSlick](http://twitter.com/BrianSlick) | [Clinging To Ideas](http://clingingtoideas.blogspot.com)  
+Business: [@BriTerIdeas](http://twitter.com/BriTerIdeas) | [briterideas.com](http://briterideas.com)
 
-Business Stuff
-- Visit my company web site at [http://briterideas.com](http://briterideas.com)
-- Follow [@BriTerIdeas on Twitter](http://twitter.com/BriTerIdeas)
 
-(This README has been adapted from [MGWordCounter](https://github.com/mattgemmell/MGWordCounter) by Matt Gemmell)
-
-## What is this?
+### What is this?
 
 The following projects:
 
@@ -25,55 +17,56 @@ The following projects:
 
 As the name implies, this one is for commenting out the tracking logs created by BTITrackingLogs. This is handy in situations where you are drowning in the firehose of logs that can be potentially displayed, and would like to temporarily shut some of them off because they aren't relevant to the problem you are attempting to solve.
 
-## Usage
+### Usage
 
-- Select some text. Any text, doesn't have to just be a single method. Can be all of the text in a file.
-- Select the appropriate service from the Xcode -> Services menu
-- There is no step 3.
+1. Select some text. Any text, doesn't have to just be a single method. Can be all of the text in a file.
+2. Select the appropriate service from the Xcode -> Services menu
+3. There is no step 3.
 
-## Installation
+### Installation
 
 - Acquire this project by the usual means
 - Build the Action.  If a Mac app launches, you built the wrong thing
 - Reveal the product in the Finder
 - The .action file needs to be placed in ~/Library/Automator
 - Launch Automator, and create a new Workflow using the Service template
-- The settings at the top should be "text", "any application", and the "Output replaces selected text" checkbox should be ON
+- The settings at the top should be "text", "any application" (or limit to Xcode if you prefer), and the "Output replaces selected text" checkbox should be ON
 - Locate the custom action in the list. It might be in the "Recently Added" smart group. You may need to restart Automator to see it. Drag it into the workflow.
 - Save. Give it a name you'll recognize, such as "Comment Tracking Logs"
 - This action will be available in the Services menu any time you have a text selection
 
 - Misc tip: During development I frequently found that Automator and/or the Services menu would cache previous states of the action.  Quitting Automator and sometimes Xcode, and sometimes creating an entirely new workflow, would help to see the newest code. FYI in case you modify the code and want to try it out.
 
-## Discussion of output
+### Discussion of output
 
-- This service will add comment marks (//) to tracking logs created by BTITrackingLogs, both the NSLog and BTITrackingLog formats.
+This service will add comment marks (//) to tracking logs created by BTITrackingLogs, both the NSLog and BTITrackingLog formats.
 
-## Getting the code
+### Getting the code
 
 BTICommentTrackingLogs can be cloned from its git repository on github. You can find the repository here: [https://github.com/BriTerIdeas/BTICommentTrackingLogs](https://github.com/BriTerIdeas/BTICommentTrackingLogs)
 
 
-## Requirements and supported OS versions
+### Requirements and supported OS versions
 
 - Tested on Mavericks.  Not sure how far back it will work.
 - Current build target is Mavericks, which uses ARC.  If building for anything older, you have to use garbage collection.
 
 
-## License
+### License
 
 BTICommentTrackingLogs is distributed freely.  Use it or modify it in any way you see fit.
 
 
-## Saying Thank You
+### Saying Thank You
 
 If you find this code useful, then any of the following would really make me happy:
+
 - I have an app: [SlickShopper](https://itunes.apple.com/us/app/slickshopper-2/id434077651?mt=8). Buy a copy. Tell friends and family about how great it is so they'll buy copies too.  Seriously, I'm lucky to sell one copy a week.  You could literally make my month!
 - I do contract development: [BriTer Ideas LLC](http://www.briterideas.com/services.shtml). Hire me. Or if you know of anyone else looking for a developer, I'd appreciate a referral.
 - A shout out on Twitter never hurt anybody.
 - I will graciously accept a [PayPal](http://bit.ly/AW4Cc) donation.
 
 
-## Bugs and feature requests
+### Bugs and feature requests
 
 There is very little support offered with this code.  I am always interested in better ways of doing things, so I'll be happy to consider feature requests.  (Note, "consider" doesn't mean I will do anything).
